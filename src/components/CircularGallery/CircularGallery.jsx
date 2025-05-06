@@ -331,7 +331,7 @@ class App {
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
       { image: `https://tse3.mm.bing.net/th?id=OIP.eWUjOCd3NX0YumGQSDNQAwHaEK&pid=Api&P=0&h=220`, text: 'ReactJS' },
-      { image: `../../../public/nodejs.jpg`, text: 'NodeJS' },
+      { image: `/nodejs.jpg`, text: 'NodeJS' },
       { image: `../../../public/mongodb.png`, text: 'MongoDB' },
       { image: `../../../public/antd.png`, text: 'Ant Design' },
       { image: `../../../public/html.png`, text: 'HTML5' },
