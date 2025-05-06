@@ -332,14 +332,14 @@ class App {
     const defaultItems = [
       { image: `https://tse3.mm.bing.net/th?id=OIP.eWUjOCd3NX0YumGQSDNQAwHaEK&pid=Api&P=0&h=220`, text: 'ReactJS' },
       { image: `/nodejs.jpg`, text: 'NodeJS' },
-      { image: `../../../public/mongodb.png`, text: 'MongoDB' },
-      { image: `../../../public/antd.png`, text: 'Ant Design' },
-      { image: `../../../public/html.png`, text: 'HTML5' },
-      { image: `../../../public/css-series.jpg`, text: 'CSS' },
-      { image: `../../../public/image_bootstrap-essentials.png`, text: 'Bootstrap' },
-      { image: `../../../public/git-blog-header.png`, text: 'Git' },
-      { image: `../../../public/GitHub-Logo.png`, text: 'Github' },
-      { image: `../../../public/postman.webp`, text: 'Postman' },
+      { image: `/mongodb.png`, text: 'MongoDB' },
+      { image: `/antd.png`, text: 'Ant Design' },
+      { image: `/html.png`, text: 'HTML5' },
+      { image: `/css-series.jpg`, text: 'CSS' },
+      { image: `/image_bootstrap-essentials.png`, text: 'Bootstrap' },
+      { image: `/git-blog-header.png`, text: 'Git' },
+      { image: `/GitHub-Logo.png`, text: 'Github' },
+      { image: `/postman.webp`, text: 'Postman' },
      
     ]
     const galleryItems = items && items.length ? items : defaultItems

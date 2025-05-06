@@ -31,7 +31,7 @@ const Projects = () => {
         {
             name: 'Xây dựng website bán về các thể loại game Roblox và các dịch vụ (giống web sharecode.vn có thể cho người dùng đăng sản phẩm lên bán)',
             description: 'Sử dụng NodeJS, ReactJS, MongDB. Tích hợp nạp tiền tự động với SEPAY. Gạch thẻ cào tự động chỉ 3-5s với gachthe1s.com',
-            image: '../../../public/bandicam 2025-05-06 19-10-59-912.png',
+            image: '/bandicam 2025-05-06 19-10-59-912.png',
             demoLink: 'https://www.shoprobux.store/',
             techIcons: [
                 { icon: <FaReact size={30} style={{color:'blue'}}/>, name: 'ReactJS' },
@@ -79,7 +79,7 @@ const Projects = () => {
         {
             name: 'Website Bán Account Game, VPS, Tool Game tự động',
             description: 'Sử dụng NodeJS, ReactJS, MongDB. Giúp người dùng có thể mua bán tài khoản game, VPS, Tool Game tự động. Nạp tiền tự động với SEPAY.',
-            image: '../../../public/bandicam 2025-05-06 19-16-35-053.png',
+            image: '/bandicam 2025-05-06 19-16-35-053.png',
             demoLink: 'https://avatar2x.com/',
             techIcons: [
                 { icon: <FaReact size={30} style={{color:'blue'}}/>, name: 'ReactJS' },
