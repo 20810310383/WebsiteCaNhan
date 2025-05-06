@@ -1,0 +1,76 @@
+/* Styles for Header */
+.custom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #050816; /* nền đậm */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 64px;
+  padding: 0 5%;
+}
+
+/* Logo section */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background-color: #f04747;
+  font-weight: bold;
+}
+
+.txt-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 0 8px;
+  color: #ffffff80;
+}
+
+/* Menu styles */
+.menu {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+}
+
+.menu .ant-menu-item-selected {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.menu .ant-menu-item {
+  color: #999;
+  font-weight: 500;
+}
+
+/* Mobile-specific Styles */
+@media (max-width: 768px) {
+  .menu-desktop {
+    display: none; /* Hide the horizontal menu on mobile */
+  }
+
+  .menu-mobile {
+    display: block; /* Show the mobile menu button */
+  }
+}
+
+/* Desktop-specific Styles */
+@media (min-width: 769px) {
+  .menu-mobile {
+    display: none; /* Hide the mobile menu button on desktop */
+  }
+
+  .menu-desktop {
+    display: block; /* Show the desktop menu */
+  }
+}

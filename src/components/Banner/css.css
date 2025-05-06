@@ -1,0 +1,13 @@
+.banner-container {
+    background-image: url('/bg.png'); 
+    background-size: cover;           /* phủ hết */
+    background-position: center;      /* canh giữa */
+    background-repeat: no-repeat;     /* không lặp lại */
+    width: 100vw;                     /* full chiều ngang */
+}
+/* @media (max-width: 767px) {
+    .laptop-img {
+      display: none !important;
+    }
+} */
+  
